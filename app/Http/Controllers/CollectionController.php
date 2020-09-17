@@ -70,7 +70,12 @@ class CollectionController extends Controller
 										<a class="group1" href="'.@$firstOriginalInnerImage.'">
 										<i class="fa fa-search-plus"></i>
 										</a> 
-									</li>
+                                    </li>
+                                    <li>
+                                    <a  href="https://shopnbuy.com.bd/" target=blank>
+                                    <i class="fas fa-shopping-cart"></i>
+										</a> 
+                                    </li>
 								</ul>
 							</div>
 						</div>
