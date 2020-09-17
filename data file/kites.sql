@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.4
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Sep 15, 2020 at 03:16 PM
--- Server version: 10.3.22-MariaDB-cll-lve
--- PHP Version: 7.3.6
+-- Host: 127.0.0.1
+-- Generation Time: Sep 17, 2020 at 01:41 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kitesfashion_database_main`
+-- Database: `kites`
 --
 
 -- --------------------------------------------------------
@@ -117,7 +116,8 @@ INSERT INTO `access_log` (`id`, `user_id`, `comapny_id`, `acess_id`, `count`, `h
 (67, 4, NULL, NULL, 1, '{\"id\":1,\"siteTitle\":\"Our Store\",\"titlePrefix\":\"||\",\"siteName\":\"Kites\",\"siteLogo\":\"public\\/uploads\\/site_logo\\/logo\\/logo_small.png\",\"sitefavIcon\":\"public\\/uploads\\/site_logo\\/fav_icon\\/logo_favicon.jpg\",\"adminTitle\":\"Admin\",\"adminLogo\":\"public\\/uploads\\/admin_logo\\/main_logo\\/logo_admin.png\",\"adminsmalLogo\":\"public\\/uploads\\/admin_logo\\/small_logo\\/logo_favicon.jpg\",\"adminfavIcon\":\"public\\/uploads\\/admin_logo\\/fav_icon\\/logo_favicon.jpg\",\"mobile1\":\"+88 01778311111\",\"mobile2\":\"+88 01778322222\",\"siteEmail1\":\"kites@nebcbd.net\",\"siteEmail2\":\"+88 01832967276\",\"siteAddress1\":\"La-Montana, House #33,<br> Road: Gareeb-E-Newaj Avenue\",\"siteAddress2\":\"Sector:11,Uttara,Dhaka,Bamgladesh,1230\",\"copyright1\":null,\"copyright2\":null,\"sitestatus\":null,\"metaTitle\":\"Kites\",\"metaKeyword\":\"Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier\",\"metaDescription\":\"KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable\",\"orderBy\":null,\"created_at\":null,\"updated_at\":\"2020-01-27 08:37:16\"}', 'Website Information Update', NULL, NULL, '2020-01-27 08:37:16', '2020-01-27 08:37:16'),
 (68, 4, NULL, NULL, 1, '{\"id\":1,\"siteTitle\":\"Our Store\",\"titlePrefix\":\"||\",\"siteName\":\"Kites\",\"siteLogo\":\"public\\/uploads\\/site_logo\\/logo\\/logo_small.png\",\"sitefavIcon\":\"public\\/uploads\\/site_logo\\/fav_icon\\/logo_favicon.jpg\",\"adminTitle\":\"Admin\",\"adminLogo\":\"public\\/uploads\\/admin_logo\\/main_logo\\/logo_admin.png\",\"adminsmalLogo\":\"public\\/uploads\\/admin_logo\\/small_logo\\/logo_favicon.jpg\",\"adminfavIcon\":\"public\\/uploads\\/admin_logo\\/fav_icon\\/logo_favicon.jpg\",\"mobile1\":\"+88 01778311111\",\"mobile2\":\"+88 01778322222\",\"siteEmail1\":\"kites@nebcbd.net\",\"siteEmail2\":\"+88 01832967276\",\"siteAddress1\":\"La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue\",\"siteAddress2\":\"Sector:11,Uttara,Dhaka,Bamgladesh,1230\",\"copyright1\":null,\"copyright2\":null,\"sitestatus\":null,\"metaTitle\":\"Kites\",\"metaKeyword\":\"Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier\",\"metaDescription\":\"KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable\",\"orderBy\":null,\"created_at\":null,\"updated_at\":\"2020-01-27 09:54:38\"}', 'Website Information Update', NULL, NULL, '2020-01-27 09:54:38', '2020-01-27 09:54:38'),
 (69, 4, NULL, NULL, 1, '{\"id\":1,\"siteTitle\":\"Our Store\",\"titlePrefix\":\"||\",\"siteName\":\"Kites\",\"siteLogo\":\"public\\/uploads\\/site_logo\\/logo\\/logo_small.png\",\"sitefavIcon\":\"public\\/uploads\\/site_logo\\/fav_icon\\/logo_favicon.jpg\",\"adminTitle\":\"Admin\",\"adminLogo\":\"public\\/uploads\\/admin_logo\\/main_logo\\/logo_admin.png\",\"adminsmalLogo\":\"public\\/uploads\\/admin_logo\\/small_logo\\/logo_favicon.jpg\",\"adminfavIcon\":\"public\\/uploads\\/admin_logo\\/fav_icon\\/logo_favicon.jpg\",\"mobile1\":\"+88 01778311111\",\"mobile2\":\"+88 01778322222\",\"siteEmail1\":\"kites@nebcbd.net\",\"siteEmail2\":\"+88 01832967276\",\"siteAddress1\":\"La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue\",\"siteAddress2\":\"Sector:11,Uttara,Dhaka-1230,Bangladesh.\",\"copyright1\":null,\"copyright2\":null,\"sitestatus\":null,\"metaTitle\":\"Kites\",\"metaKeyword\":\"Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier\",\"metaDescription\":\"KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable\",\"orderBy\":null,\"created_at\":null,\"updated_at\":\"2020-01-29 18:05:56\"}', 'Website Information Update', NULL, NULL, '2020-01-29 18:05:56', '2020-01-29 18:05:56'),
-(70, 4, NULL, NULL, 1, '{\"id\":1,\"siteTitle\":\"Our Store\",\"titlePrefix\":\"||\",\"siteName\":\"Kites\",\"siteLogo\":\"public\\/uploads\\/site_logo\\/logo\\/logo_small.png\",\"sitefavIcon\":\"public\\/uploads\\/site_logo\\/fav_icon\\/fav_kites.png\",\"adminTitle\":\"Admin\",\"adminLogo\":\"public\\/uploads\\/admin_logo\\/main_logo\\/logo_admin.png\",\"adminsmalLogo\":\"public\\/uploads\\/admin_logo\\/small_logo\\/logo_favicon.jpg\",\"adminfavIcon\":\"public\\/uploads\\/admin_logo\\/fav_icon\\/logo_favicon.jpg\",\"mobile1\":\"+88 01778311111\",\"mobile2\":\"+88 01778322222\",\"siteEmail1\":\"kites@nebcbd.net\",\"siteEmail2\":\"+88 01832967276\",\"siteAddress1\":\"La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue\",\"siteAddress2\":\"Sector:11,Uttara,Dhaka-1230,Bangladesh.\",\"copyright1\":null,\"copyright2\":null,\"sitestatus\":null,\"metaTitle\":\"Kites\",\"metaKeyword\":\"Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier\",\"metaDescription\":\"KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable\",\"orderBy\":null,\"created_at\":null,\"updated_at\":\"2020-02-29 06:43:02\"}', 'Website Information Update', NULL, NULL, '2020-02-29 06:43:02', '2020-02-29 06:43:02');
+(70, 4, NULL, NULL, 1, '{\"id\":1,\"siteTitle\":\"Our Store\",\"titlePrefix\":\"||\",\"siteName\":\"Kites\",\"siteLogo\":\"public\\/uploads\\/site_logo\\/logo\\/logo_small.png\",\"sitefavIcon\":\"public\\/uploads\\/site_logo\\/fav_icon\\/fav_kites.png\",\"adminTitle\":\"Admin\",\"adminLogo\":\"public\\/uploads\\/admin_logo\\/main_logo\\/logo_admin.png\",\"adminsmalLogo\":\"public\\/uploads\\/admin_logo\\/small_logo\\/logo_favicon.jpg\",\"adminfavIcon\":\"public\\/uploads\\/admin_logo\\/fav_icon\\/logo_favicon.jpg\",\"mobile1\":\"+88 01778311111\",\"mobile2\":\"+88 01778322222\",\"siteEmail1\":\"kites@nebcbd.net\",\"siteEmail2\":\"+88 01832967276\",\"siteAddress1\":\"La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue\",\"siteAddress2\":\"Sector:11,Uttara,Dhaka-1230,Bangladesh.\",\"copyright1\":null,\"copyright2\":null,\"sitestatus\":null,\"metaTitle\":\"Kites\",\"metaKeyword\":\"Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier\",\"metaDescription\":\"KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable\",\"orderBy\":null,\"created_at\":null,\"updated_at\":\"2020-02-29 06:43:02\"}', 'Website Information Update', NULL, NULL, '2020-02-29 06:43:02', '2020-02-29 06:43:02'),
+(71, 4, NULL, NULL, 1, '{\"id\":1,\"siteTitle\":\"Our Store\",\"titlePrefix\":\"||\",\"siteName\":\"Kites\",\"siteLogo\":\"public\\/uploads\\/site_logo\\/logo\\/logo_small.png\",\"sitefavIcon\":\"public\\/uploads\\/site_logo\\/fav_icon\\/fav_kites.png\",\"adminTitle\":\"Admin\",\"adminLogo\":\"public\\/uploads\\/admin_logo\\/main_logo\\/logo_admin.png\",\"adminsmalLogo\":\"public\\/uploads\\/admin_logo\\/small_logo\\/logo_favicon.jpg\",\"adminfavIcon\":\"public\\/uploads\\/admin_logo\\/fav_icon\\/fav_kites.png\",\"mobile1\":\"+88 01778311111\",\"mobile2\":\"+88 01778322222\",\"siteEmail1\":\"info@kitesfashion.com\",\"siteEmail2\":\"+88 01832967276\",\"siteAddress1\":\"La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue\",\"siteAddress2\":\"Sector:11,Uttara,Dhaka-1230,Bangladesh.\",\"copyright1\":null,\"copyright2\":null,\"sitestatus\":null,\"metaTitle\":\"Kites\",\"metaKeyword\":\"Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier\",\"metaDescription\":\"KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable\",\"orderBy\":null,\"created_at\":null,\"updated_at\":\"2020-09-16 04:46:36\"}', 'Website Information Update', NULL, NULL, '2020-09-16 04:46:36', '2020-09-16 04:46:36');
 
 -- --------------------------------------------------------
 
@@ -145,7 +145,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `email`, `username`, `role`, `roleName`, `roleLevel`, `password`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
-(4, 'Admin', 'kites@nebcbd.net', 'Admin', 3, NULL, NULL, '$2y$10$PgDOq8AoSMd0S1xJzhXHFOOvlU4LA12z/7Ve1kXeKVeRttqpl.o/G', 1, 'HftBsS0WaFhNaeki9GEnbTOdo99h14G9dS1WtBq9AJJkzUuSyNKsUxMufhEx', '2019-04-17 01:04:35', '2020-01-20 13:33:35'),
+(4, 'Admin', 'info@kitesfashion.com', 'Admin', 2, NULL, NULL, '$2y$10$PgDOq8AoSMd0S1xJzhXHFOOvlU4LA12z/7Ve1kXeKVeRttqpl.o/G', 1, 'HftBsS0WaFhNaeki9GEnbTOdo99h14G9dS1WtBq9AJJkzUuSyNKsUxMufhEx', '2019-04-17 01:04:35', '2020-01-20 13:33:35'),
 (7, 'Jisan Ahmed', 'jisanahmed06@gmail.com', 'jisan', 2, NULL, NULL, '$2y$10$KSdee7hzr.8uJB89YOyV7eKvQG6uXyD45P0Fpf.FNHv9q46VCXM0i', 1, NULL, '2019-08-30 21:43:55', '2019-11-26 22:25:40');
 
 -- --------------------------------------------------------
@@ -425,8 +425,8 @@ CREATE TABLE `blogs` (
 --
 
 INSERT INTO `blogs` (`id`, `firstHomeTitle`, `secondHomeTitle`, `firstInnerTitle`, `secondInnerTitle`, `firstHomeImage`, `firstInnerImage`, `homeDescription`, `innerDescription`, `urlLink`, `articleIcon`, `metaTitle`, `metaKeyword`, `metaDescription`, `orderBy`, `articleStatus`, `created_at`, `updated_at`) VALUES
-(6, 'We Are Provide Best Product', NULL, 'We Are Provide Best Product', NULL, 'public/uploads/blogs/home/ak-img-1_196494918527.jpg', 'public/uploads/blogs/inner_page/01-img_152047098059.jpg', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p><span style=\"color: #000000;\">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur&nbsp;</span></p>\r\n</body>\r\n</html>', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>\r\n<p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>\r\n<p>Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 1, 0, '2020-01-21 03:59:04', '2020-02-14 23:59:32'),
-(7, 'We are going to arrange seminar', 'We are going to arrange seminar', 'We are going to arrange seminar', 'We are going to arrange seminar', 'public/uploads/blogs/home/2_22039520936.jpg', 'public/uploads/blogs/inner_page/02-img_30087381611.jpg', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas</p>\r\n</body>\r\n</html>', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>\r\n<p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>\r\n<p>Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 2, 0, '2020-01-21 04:01:53', '2020-02-14 23:59:33');
+(6, 'We Are Provide Best Product', NULL, 'We Are Provide Best Product', NULL, 'public/uploads/blogs/home/ak-img-1_196494918527.jpg', 'public/uploads/blogs/inner_page/01-img_152047098059.jpg', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p><span style=\"color: #000000;\">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur&nbsp;</span></p>\r\n</body>\r\n</html>', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>\r\n<p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>\r\n<p>Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 1, 1, '2020-01-21 03:59:04', '2020-09-17 03:55:36'),
+(7, 'We are going to arrange seminar', 'We are going to arrange seminar', 'We are going to arrange seminar', 'We are going to arrange seminar', 'public/uploads/blogs/home/2_22039520936.jpg', 'public/uploads/blogs/inner_page/02-img_30087381611.jpg', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas</p>\r\n</body>\r\n</html>', '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>\r\n<p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>\r\n<p>Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 2, 1, '2020-01-21 04:01:53', '2020-09-17 03:55:38');
 
 -- --------------------------------------------------------
 
@@ -450,6 +450,35 @@ CREATE TABLE `categories` (
 INSERT INTO `categories` (`id`, `name`, `orderBy`, `status`, `created_at`, `updated_at`) VALUES
 (10, 'Event', 1, 1, '2019-12-01 03:02:49', '2019-12-01 03:02:49'),
 (11, 'Our Picnic', 2, 1, '2019-12-01 03:03:49', '2019-12-01 03:04:53');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clients`
+--
+
+CREATE TABLE `clients` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `customerid` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `orderBy` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `status` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `clients`
+--
+
+INSERT INTO `clients` (`id`, `customerid`, `name`, `image`, `orderBy`, `status`, `created_at`, `updated_at`) VALUES
+(1, '13', 'Mr. Mamun', 'public/uploads/client/images (2)_30078781390.png', '2', '1', '2020-09-17 00:16:48', '2020-09-17 05:22:19'),
+(2, '14', 'Malaysia', 'public/uploads/client/torkard logo_82697161969.PNG', '1', '1', '2020-09-17 00:18:52', '2020-09-17 02:55:49'),
+(3, '9', 'Mr.Symex It ltd.', 'public/uploads/client/images_80952010748.png', '2', '1', '2020-09-17 01:28:42', '2020-09-17 05:22:29'),
+(4, '11', 'creative software', 'public/uploads/client/side-profile-woman-with-long-hair-hat-and-sunglasses-4307ld_68229770195.png', '3', '1', '2020-09-17 02:58:31', '2020-09-17 05:22:41'),
+(5, '4', 'kites Fashion', 'public/uploads/client/images (1)_54266160120.png', '5', '1', '2020-09-17 05:23:20', '2020-09-17 05:23:20'),
+(6, '4', 'shopnbuy', 'public/uploads/client/fancy-red-dress-on-hanger-4388ld_78368581849.png', '7', '1', '2020-09-17 05:24:25', '2020-09-17 05:24:25');
 
 -- --------------------------------------------------------
 
@@ -734,7 +763,7 @@ INSERT INTO `menus` (`id`, `root_menu`, `parent`, `menuName`, `articleName`, `pa
 (39, 5, 7, 'FootWear', 'FootWear', 7, 'FootWear', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 5, 1, 'yes', 'no', '2020-01-15 00:15:30', '2020-01-15 00:15:30'),
 (40, 5, 7, 'Waist Belt', 'Waist Belt', 7, 'Waist Belt', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 6, 1, 'yes', 'no', '2020-01-15 00:15:54', '2020-01-15 00:15:54'),
 (41, NULL, NULL, 'Manufacturer', 'Manufacturer', NULL, 'Manufacturer', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 6, 0, 'yes', 'no', '2020-01-16 01:36:11', '2020-01-27 11:26:02'),
-(42, NULL, NULL, 'Our Team', 'Our Team', NULL, 'Our Team', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 6, 1, 'yes', 'no', '2020-01-16 01:36:39', '2020-01-16 01:37:07'),
+(42, NULL, NULL, 'Our Team', 'Our Team', NULL, 'Our Team', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n<p>jjjjjjjjjjjjjjjjjjjjjjjjjjjjj</p>\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 6, 1, 'yes', 'no', '2020-01-16 01:36:39', '2020-09-15 23:17:53'),
 (43, 5, 7, 'Wallet', 'Wallet', 7, 'Wallet', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 7, 1, 'yes', 'no', '2020-01-16 02:21:25', '2020-01-16 02:21:25'),
 (44, 5, 7, 'Hijab', 'Hijab', 7, 'Hijab', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 8, 1, 'yes', 'no', '2020-01-16 02:21:53', '2020-01-16 02:21:53'),
 (45, 5, 7, 'Necab', 'Necab', 7, 'Necab', NULL, '<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>', NULL, NULL, NULL, NULL, NULL, 8, 1, 'yes', 'no', '2020-01-16 02:22:29', '2020-01-16 02:22:29'),
@@ -817,7 +846,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (55, '2019_09_05_054156_create_purchase_order_receive_items_table', 36),
 (56, '2019_09_05_095924_create_supplier_payments_table', 37),
 (57, '2019_09_07_070859_create_purchase_returns_table', 38),
-(58, '2019_09_07_071132_create_purchase_return_items_table', 38);
+(58, '2019_09_07_071132_create_purchase_return_items_table', 38),
+(59, '2020_09_17_054633_create_clients_table', 39);
 
 -- --------------------------------------------------------
 
@@ -1396,7 +1426,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `siteTitle`, `titlePrefix`, `siteName`, `siteLogo`, `sitefavIcon`, `adminTitle`, `adminLogo`, `adminsmalLogo`, `adminfavIcon`, `mobile1`, `mobile2`, `siteEmail1`, `siteEmail2`, `siteAddress1`, `siteAddress2`, `copyright1`, `copyright2`, `sitestatus`, `metaTitle`, `metaKeyword`, `metaDescription`, `orderBy`, `created_at`, `updated_at`) VALUES
-(1, 'Our Store', '||', 'Kites', 'public/uploads/site_logo/logo/logo_small.png', 'public/uploads/site_logo/fav_icon/fav_kites.png', 'Admin', 'public/uploads/admin_logo/main_logo/logo_admin.png', 'public/uploads/admin_logo/small_logo/logo_favicon.jpg', 'public/uploads/admin_logo/fav_icon/fav_kites.png', '+88 01778311111', '+88 01778322222', 'kites@nebcbd.net', '+88 01832967276', 'La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue', 'Sector:11,Uttara,Dhaka-1230,Bangladesh.', NULL, NULL, NULL, 'Kites', 'Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier', 'KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable', NULL, NULL, '2020-02-29 11:44:19');
+(1, 'Our Store', '||', 'Kites', 'public/uploads/site_logo/logo/logo_small.png', 'public/uploads/site_logo/fav_icon/fav_kites.png', 'Admin', 'public/uploads/admin_logo/main_logo/logo_admin.png', 'public/uploads/admin_logo/small_logo/logo_favicon.jpg', 'public/uploads/admin_logo/fav_icon/fav_kites.png', '+88 01778311111', '+88 01778322222', 'info@kitesfashion.com', '+88 01832967276', 'La-Montana, House #33,<br> Road: Gareeb-E-Newaz Avenue', 'Sector:11,Uttara,Dhaka-1230,Bangladesh.', NULL, NULL, NULL, 'Kites', 'Garments manufacturer,Best garments supplier of bangladesh,Bangladesh best garments supplier,Quality garments manufacturer,Ready made garments manufacturer,World best garments supplier', 'KITES is a leading garments Buying, Manufacturer and exporter in Bangladesh. We provide our quality garments to many internationally reputable', NULL, NULL, '2020-09-15 22:46:36');
 
 -- --------------------------------------------------------
 
@@ -1464,7 +1494,7 @@ INSERT INTO `social_links` (`id`, `name`, `icon`, `link`, `status`, `orderBy`, `
 (4, 'Twiteer', '<i class=\"fa fa-twitter\"></i>', 'https://twitter.com', 0, 4, '2019-12-01 05:56:55', '2020-03-14 11:01:18'),
 (5, 'whatsapp', '<i class=\"fa fa-whatsapp\"></i>', 'https://api.whatsapp.com/send?phone=01778311111&text=Hello', 1, 1, '2020-01-11 04:12:44', '2020-03-14 11:02:31'),
 (6, 'Linkdin', '<i class=\"fa fa-linkedin\"></i>', 'facebook.com', 0, 6, '2020-01-11 04:13:04', '2020-03-14 11:01:31'),
-(7, 'Instagram', '<i class=\"fa fa-instagram\"></i>', 'https://www.instagram.com/', 0, 5, '2020-01-11 04:13:29', '2020-03-14 11:01:23'),
+(7, 'Instagram', '<i class=\"fa fa-instagram\"></i>', 'https://www.instagram.com/', 1, 5, '2020-01-11 04:13:29', '2020-09-15 22:45:19'),
 (8, 'Viber', '<i class=\"fa fa-whatsapp\"></i>', 'viber://contact?number=1234', 1, 3, '2020-03-14 11:02:10', '2020-03-14 11:02:10');
 
 -- --------------------------------------------------------
@@ -2158,7 +2188,8 @@ INSERT INTO `user_menus` (`id`, `parentMenu`, `menuName`, `menuLink`, `menuIcon`
 (95, '77', 'Collection', 'collection.index', 'fa fa-caret', 4, '1', '2020-01-16 11:24:41', '2020-02-17 09:41:48'),
 (96, '18', 'Blogs', 'blogs.index', 'fa fa-caret', 22, '1', '2020-01-21 03:32:28', '2020-01-21 03:32:28'),
 (97, '18', 'Testimonial', 'testimonial.index', 'fa fa-caret', 23, '1', '2020-01-26 09:34:18', '2020-01-26 09:34:18'),
-(98, '77', 'Collection Category', 'collectionCategory.index', NULL, 3, '1', '2020-02-17 10:08:54', '2020-02-17 10:09:20');
+(98, '77', 'Collection Category', 'collectionCategory.index', NULL, 3, '1', '2020-02-17 10:08:54', '2020-02-17 10:09:20'),
+(99, '18', 'Client', 'client.index', 'fa fa-caret', 8, '1', '2020-09-16 01:43:56', '2020-09-16 01:43:56');
 
 -- --------------------------------------------------------
 
@@ -2263,7 +2294,11 @@ INSERT INTO `user_menu_actions` (`id`, `parentmenuId`, `menuType`, `actionName`,
 (259, 98, 1, 'Add', 'collectionCategory.add', 1, 1, '2020-02-17 10:09:59', '2020-02-17 10:09:59'),
 (260, 98, 2, 'Edit', 'collectionCategory.edit', 2, 1, '2020-02-17 10:10:14', '2020-02-17 10:10:14'),
 (261, 98, 4, 'Delete', 'collectionCategory.delete', 3, 1, '2020-02-17 10:10:30', '2020-02-17 10:10:30'),
-(262, 98, 3, 'Status', 'collectionCategory.status', 4, 1, '2020-02-17 10:10:51', '2020-02-17 10:10:51');
+(262, 98, 3, 'Status', 'collectionCategory.status', 4, 1, '2020-02-17 10:10:51', '2020-02-17 10:10:51'),
+(263, 99, 1, 'Add', 'client.add', 75, 1, '2020-09-16 23:31:17', '2020-09-16 23:31:17'),
+(264, 99, 2, 'Edit', 'client.edit', 76, 1, '2020-09-17 00:44:34', '2020-09-17 00:44:34'),
+(265, 99, 4, 'Delete', 'client.delete', 77, 1, '2020-09-17 00:57:13', '2020-09-17 00:57:13'),
+(266, 99, 3, 'Status', 'client.status', 78, 1, '2020-09-17 01:13:31', '2020-09-17 01:13:31');
 
 -- --------------------------------------------------------
 
@@ -2288,8 +2323,8 @@ CREATE TABLE `user_roles` (
 --
 
 INSERT INTO `user_roles` (`id`, `name`, `parentRole`, `level`, `status`, `permission`, `actionPermission`, `created_at`, `updated_at`) VALUES
-(2, 'Super User', NULL, NULL, 1, '3,18,19,20,21,26,34,36,37,38,39,40,70,74,77,81,90,91,92,93,94,95,96,97,98', '24,25,26,27,28,29,34,35,89,55,56,57,86,58,64,65,66,67,219,59,60,61,62,63,88,174,175,176,177,206,207,208,209,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262', '2019-04-17 00:50:05', '2020-02-17 10:14:26'),
-(3, 'Admin', 2, NULL, 1, '3,18,19,21,26,34,36,37,39,40,70,77,81,90,91,92,93,94,95,96,97,98', '28,29,34,35,89,64,65,66,67,59,60,61,62,63,88,174,175,176,177,206,207,208,209,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262', '2019-04-17 00:52:54', '2020-02-17 23:12:55');
+(2, 'Super User', NULL, NULL, 1, '3,18,19,20,21,26,34,36,37,38,39,40,70,74,77,81,90,91,92,93,94,95,96,97,98,99', '24,25,26,27,28,29,34,35,89,55,56,57,86,58,64,65,66,67,219,59,60,61,62,63,88,174,175,176,177,206,207,208,209,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266', '2019-04-17 00:50:05', '2020-02-17 10:14:26'),
+(3, 'Admin', 2, NULL, 1, '3,18,19,21,26,34,36,37,39,40,70,77,81,90,91,92,93,94,95,96,97,98,99', '28,29,34,35,89,64,65,66,67,59,60,61,62,63,88,174,175,176,177,206,207,208,209,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266', '2019-04-17 00:52:54', '2020-02-17 23:12:55');
 
 --
 -- Indexes for dumped tables
@@ -2324,6 +2359,12 @@ ALTER TABLE `blogs`
 -- Indexes for table `categories`
 --
 ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `clients`
+--
+ALTER TABLE `clients`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -2474,7 +2515,7 @@ ALTER TABLE `user_roles`
 -- AUTO_INCREMENT for table `access_log`
 --
 ALTER TABLE `access_log`
-  MODIFY `id` int(35) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `id` int(35) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `admins`
@@ -2499,6 +2540,12 @@ ALTER TABLE `blogs`
 --
 ALTER TABLE `categories`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+--
+-- AUTO_INCREMENT for table `clients`
+--
+ALTER TABLE `clients`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `contacts`
@@ -2540,7 +2587,7 @@ ALTER TABLE `menus`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 
 --
 -- AUTO_INCREMENT for table `newsletters`
@@ -2588,13 +2635,13 @@ ALTER TABLE `social_links`
 -- AUTO_INCREMENT for table `teams`
 --
 ALTER TABLE `teams`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 
 --
 -- AUTO_INCREMENT for table `team_category`
 --
 ALTER TABLE `team_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `testimonials`
@@ -2612,13 +2659,13 @@ ALTER TABLE `upazilas`
 -- AUTO_INCREMENT for table `user_menus`
 --
 ALTER TABLE `user_menus`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
 
 --
 -- AUTO_INCREMENT for table `user_menu_actions`
 --
 ALTER TABLE `user_menu_actions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=263;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=267;
 
 --
 -- AUTO_INCREMENT for table `user_roles`
