@@ -45,7 +45,7 @@ class TeamController extends Controller
     public function client($id){
             $client=Client::where('customerid',$id)->where('status',1)->get();
             $clients=Client::where('customerid',$id)->where('status',1)->first();
-            $customer=Customer::all();
+            $customer=Customer::where('status',1)->get();
             $title = "Our Clients";
            return view('frontend.customer.client',compact('client','clients','title','customer'));
     }

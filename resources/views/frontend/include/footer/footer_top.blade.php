@@ -34,7 +34,7 @@
               11 linum st.macquarie Fields,nsw-2564, <br>
               Sydney, Australia<br>
               Mobile: +61402372243<br>
-              Email: hasan@nebcbd.net
+              Email: hasan@kitesfashion.com
           </div>
         </div>
 
@@ -47,7 +47,7 @@
             <p><strong>Mr.Younus</strong><br>
               330 Minnesota Ave Buffalo NY 14215, <br>
               Mobile: +17182493662<br>
-              Email: younus@nebcbd.net
+              Email: younus@kitesfashion.com
           </div>
         </div>
 
@@ -62,7 +62,7 @@
               55100 Kuala Lumpur,<br>
               Wilayah Persekutuan Kuala Lumpur, Malaysia<br>
               Mobile: +60 3-2117 8000<br>
-              Email: hossain@nebcbd.net
+              Email: hossain@kitesfashion.com
           </div>
         </div>
         
